@@ -181,6 +181,17 @@ body {background: url(../img/header_bg.jpg) repeat-x center top;}
 }
 
 
+/* 게시판 */
+.notice1 {}
+.notice1 h5 {font-size: 15px; color: #2f7fa6; padding-bottom: 5px;}
+.notice1 li {position:relative; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding-left: 8px;}
+.notice1 li::before {
+    content: '';
+    width: 3px; height: 3px;
+    border-radius: 50%;
+    background: #449ce2;
+    position: absolute; left: 0; top: 6px;
+}
 
 /* media query*/
 /* 화면 너비 0 ~ 1220 px */
